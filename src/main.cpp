@@ -207,6 +207,7 @@ void resetPoition() {
   digitalWrite(enabled, HIGH);
 }
 
+// Permet de faire un softReset de l'arduino
 void software_Reboot()
 {
   wdt_enable(WDTO_15MS);
